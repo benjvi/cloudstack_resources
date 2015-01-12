@@ -1,4 +1,6 @@
 # class that performs all reusable logic for cloudstack integrations
+#ie this reads in the cloudstack access information from a yaml file
+#then it returns a connection object that will be used for making api calls
 require 'puppet'
 
 module Puppet_x
